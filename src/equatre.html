@@ -6,28 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hedy Ibrahim</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../scss/styles.scss">
-    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="/scss/styles.scss">
+    <script defer src="/js/main.js"></script>
 </head>
 
 <body>
     <header>
-        <div>
             <ul>
                 <li>HEDY IBRAHIM</li>
                 <li>PORTFOLIO BTS SIO</li>
             </ul>
-        </div>
     </header>
     <nav>
         <ul>
-            <li><a href="">PRESENTATION</a></li>
+            <li><a href="index.html">PRESENTATION</a></li>
             <li><a href="entreprise.html">ENTREPRISE</a></li>
-            <li><a href="esix.html">E6</a></li>
-            <li><a href="equatre.html">E4</a></li>
+            <li class="hover_e6">
+                    <a href="esix.html">E6</a>    
+                    <ul class="hover1" id="hover1">
+                        <li><a>TABLEAU DE COMPETENCES</a></li>
+                        <li><a>VEILLE TECHNOLOGIQUE</a></li>
+                    </ul>
+            </li>
+            <li class="hover_e4">
+                <a href="equatre.html">E4</a>
+                <ul class="hover2" id="hover2">
+                    <li><a>INTER-VLAN</a></li>
+                    <li><a>PFSENSE : PORTAIL CAPTIF</a></li>
+                </ul>
+            </li>
             <li><a href="cv.html">CV</a></li>
         </ul>
     </nav>
+
     <main>
         <section>
         <h1>PRESENTATION</h1>
