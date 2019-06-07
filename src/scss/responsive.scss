@@ -1,5 +1,9 @@
-
 @media (max-width: 1030px) {
+
+    .burg {
+        display: none;
+    }
+
     nav ul {
         justify-content: center;
         padding-left: 0;
@@ -10,8 +14,9 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 850px) {      
     nav ul li {
-            display: none;
+        display: none;
+
     }
 }
